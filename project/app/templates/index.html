@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+	<title>Shablon</title>
+</head>
+<body>
+	<div class="win">
+		<p>Место учёбы: {{PlaceOfSudy}}</p>
+		<p>Группа: {{Group}}</p>
+		<p>Специальность: {{Specialization}}</p>
+		<p>Кем хочу стать после выпуска: {{InfoForMe}}</p>
+	</div>
+	<a href="form/">Регестрация</a>
+</body>
+</html>
